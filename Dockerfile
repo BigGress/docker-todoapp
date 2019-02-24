@@ -1,5 +1,4 @@
 FROM node
-LABEL 451148156@qq.com
 RUN git clone https://github.com/BigGress/docker-todoapp.git/
 WORKDIR docker-todoapp
 RUN npm install
